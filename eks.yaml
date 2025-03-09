@@ -5,7 +5,7 @@ kind: ClusterConfig
 
 metadata:
   name: expense-1
-  region: eu-east-1
+  region: us-east-1
 
 # managednodeGroups will be maintained by AS
 managednodeGroups:
