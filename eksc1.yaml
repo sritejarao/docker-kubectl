@@ -17,12 +17,4 @@ managedNodeGroups:
     maxSize: 5
     volumeSize: 20
     privateNetworking: true  # Ensures nodes use private subnets
-    ssh:
-      allow: true  # Enables SSH access
-      publicKeyName: "your-key-pair-name"  # Replace with your actual EC2 key pair name
-    iam:
-      withAddonPolicies:
-        autoScaler: true
-        ebs: true
-        efs: true
-        cloudWatch: true
+    
