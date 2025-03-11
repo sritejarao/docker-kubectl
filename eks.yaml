@@ -4,12 +4,12 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: expense-2
+  name: expense
   region: us-east-1
 
 # managednodeGroups will be maintained by AS
 managednodeGroups:
-  - name: expense-2
+  - name: expense
     instanceTypes: ["m5.large","c3.large","c4.large","c5.large"]
     desiredCapacity: 3
     #spot: true
